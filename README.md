@@ -3,6 +3,8 @@
 The permanent public link is https://atdanielprice.github.io/kinect-qr/.
 Both card directions encode that URL. The initial destination is https://trykinect.ai/contact.
 
+[View or download the QR code](https://atdanielprice.github.io/kinect-qr/code/).
+
 ## Change the destination without reprinting the cards
 
 1. Open [destination.json](https://github.com/atdanielprice/kinect-qr/edit/main/destination.json).
