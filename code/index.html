@@ -1,3 +1,16 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Kinect · Your demo QR code</title><style>
-*{box-sizing:border-box}body{margin:0;background:#f3f3f1;color:#222;font:16px/1.55 system-ui,-apple-system,sans-serif}main{max-width:850px;margin:64px auto;padding:0 24px}.brand{font-size:23px;font-weight:650;letter-spacing:-1px}h1{font-size:clamp(32px,6vw,46px);line-height:1.1;letter-spacing:-1.6px;margin:32px 0 16px}p{color:#60615c}.panel{display:grid;grid-template-columns:280px 1fr;gap:36px;align-items:center;background:#fff;border:1px solid #ddd;border-radius:16px;padding:28px;margin:36px 0}img{width:100%;height:auto;image-rendering:pixelated}h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin:0 0 10px}.target{font-weight:600;color:#222;overflow-wrap:anywhere}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.button{display:inline-block;padding:11px 16px;border-radius:7px;border:1px solid #ccc;color:#222;text-decoration:none;font-size:14px;font-weight:600}.primary{background:#222;border-color:#222;color:#fff}.share{background:#fff;border-radius:10px;padding:20px;overflow-wrap:anywhere}a{color:inherit;text-underline-offset:3px}.small{font-size:13px}.notice{margin-top:22px}@media(max-width:650px){main{margin:32px auto}.panel{grid-template-columns:1fr;gap:20px}.panel img{max-width:280px;margin:auto}.actions{display:grid}.button{text-align:center}}
-</style></head><body><main><div class="brand">Kinect</div><h1>One QR.<br>An editable destination.</h1><p>The code on your business cards stays the same when you change where it leads.</p><section class="panel"><img src="../qr.png" alt="QR code for the permanent Kinect demo link" width="740" height="740"><div><h2>Current destination</h2><a class="target" id="destination" href="https://trykinect.ai/contact">https://trykinect.ai/contact</a><div class="actions"><a class="button primary" href="../qr.png" download="kinect-demo-qr.png">Download QR</a><a class="button" href="https://github.com/atdanielprice/kinect-qr/edit/main/destination.json" target="_blank" rel="noopener">Edit destination</a></div><p class="small notice">Edit the destination URL in your GitHub account and commit the change. Allow a few minutes for it to publish.</p></div></section><h2>Permanent link to share</h2><div class="share"><a href="https://atdanielprice.github.io/kinect-qr/">https://atdanielprice.github.io/kinect-qr/</a></div><p class="small">Keep this link unchanged after engraving. Update only its destination.</p></main><script>(async()=>{try{const r=await fetch('../destination.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const c=await r.json();const u=new URL(c.destination);if(u.protocol!=='https:'||u.username||u.password)return;const a=document.getElementById('destination');a.href=u.href;a.textContent=u.href}catch{}})();</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="refresh" content="0;url=https://trykinect.ai/qr/code">
+  <link rel="canonical" href="https://trykinect.ai/qr/code">
+  <title>Kinect QR code — moved</title>
+  <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#fff;color:#262626;font:16px/1.6 system-ui,sans-serif}main{max-width:30rem;padding:2rem}a{color:inherit;text-underline-offset:4px}</style>
+</head>
+<body>
+  <main><h1>Kinect QR code</h1><p>The download page has moved to Kinect.</p><a href="https://trykinect.ai/qr/code">Download the new Kinect QR code</a></main>
+  <script>window.location.replace('https://trykinect.ai/qr/code');</script>
+</body>
+</html>
